@@ -24,5 +24,4 @@ y = input("Convert to: PNG\JPEG\JPG\GIF\WEBP\n")
 output_file = 'output.' + y
 rgb = im.save(output_file)
 
-ctypes.windll.user32.MessageBoxW(0,f"{output_file} saved!", "Done")
 exit()
